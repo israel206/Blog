@@ -35,6 +35,10 @@ This project was developed using the following technologies:
   ```bash
     # clone repository
     $ git clone https://github.com/israel206/Blog.git
+
+    #Login
+     israel061
+     123456
   ```
 
 ---
@@ -60,8 +64,3 @@ Made with 💜 [by Israel Silva](https://israel206.github.io/) 👋 com os direi
 [yarn]: https://yarnpkg.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-
-### Login
-
-thsales061
-123456

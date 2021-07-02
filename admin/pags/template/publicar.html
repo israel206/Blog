@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="dist/ui/trumbowyg.min.css">
+    
+
+    
+
+    <title>ADMIN CP</title>
+  </head>
+  <body>
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="menu">
+          <div class="title-menu">Menu</div>
+          <ul>
+            <li class="blue"><a href="#" class="category"> Publicações</a>
+              <ul>
+                <li><a href="#"><i class="fas fa-plus"></i> Cadastrar</a></li>
+                <li><a href="#"><i class="fas fa-bars"></i> Gerenciar</a></li>
+              </ul>
+            </li>
+
+            <li class="cyan"><a href="#" class="category"> Comentários</a>
+              <ul>
+                <li><a href="#"><i class="fas fa-bars"></i> Gerenciar Comentários</a></li>
+              </ul>
+            </li>
+
+            <li class="red"><a href="#" class="category"> Administradores</a>
+              <ul>
+                <li><a href="#"><i class="fas fa-users"></i> Gerenciar Administradores</a></li>
+              </ul>
+            </li>
+
+            <li class="green"><a href="#" class="category"> Meus Dados</a>
+              <ul>
+                <li><a href="#"><i class="fas fa-user"></i> Editar Dados</a></li>
+              </ul>
+            </li>
+
+            <li class="purple"><a href="#"><i class="fas fa-user"></i> Sair</a></li>
+          </ul>
+        </div>
+    </div>
+
+      <div class="col-sm">
+        <div class="panel-content">
+          <h4 class="titulo">PUBLICAR</h4>
+          
+          <form method="POST" enctype="multipart/form-data">
+            <p><label for="titulo">Titulo</label>
+              <input type="text" class="form-control" id="titulo" name="titulo">
+            </p>
+
+            <p>
+             <textarea class="form-control" id="post" name="post" rows="5"></textarea>
+            </p>
+
+            <p><label>Categoria</label>
+              <select class="form-control" name="categoria">
+                <option class=""></option>
+              </select>
+            </p>
+
+            <p><input type="submit" value="Publicar" class="btn btn-primary btn-lg btn-block"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>    
+
+  <footer>MeuSite &copy; Criado por <b>Tutoriais e Informática</b></footer>
+
+  <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/97bdcc5c17.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="dist/trumbowyg.min.js"></script>
+    <script type="text/javascript">$('#post').trumbowyg();</script>
+  </body>
+</html>

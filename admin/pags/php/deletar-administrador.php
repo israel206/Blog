@@ -1,0 +1,1 @@
+<?php blockAcesso(); delete("usuarios", "id", $explode['1'], "admin/gerenciar-administradores");?>

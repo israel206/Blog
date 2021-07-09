@@ -45,8 +45,6 @@ This project was developed using the following technologies:
 
 ## 💻 Project
 
-App to always remember to water your plants 🌱
-
 API under development
 
 ---
